@@ -14,3 +14,5 @@ echo Enter commit name
 read commitMessage
 
 git commit -am "$commitMessage"
+
+git push
